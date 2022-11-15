@@ -7,23 +7,82 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2EA629D56AFB907B90CFA81F /* Pods_NoteBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2FCFF20756CD403DE1A92FD /* Pods_NoteBook.framework */; };
+		8495DF12292393F5000370EA /* PageChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8495DF11292393F5000370EA /* PageChange.swift */; };
+		84C3A22F29237910000EC4C6 /* NT_WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C3A22E29237910000EC4C6 /* NT_WebViewController.swift */; };
+		84C3A23129237A77000EC4C6 /* UIImageExtesion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C3A23029237A77000EC4C6 /* UIImageExtesion.swift */; };
+		84C3A23329237B13000EC4C6 /* UIViewControllerExtession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C3A23229237B13000EC4C6 /* UIViewControllerExtession.swift */; };
+		84C3A23529237B5E000EC4C6 /* About_NT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C3A23429237B5E000EC4C6 /* About_NT.swift */; };
+		84C3A23829238034000EC4C6 /* NTMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C3A23729238034000EC4C6 /* NTMineViewController.swift */; };
+		84C3A23D2923811F000EC4C6 /* NoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C3A23B2923811F000EC4C6 /* NoteViewController.m */; };
+		84C3A23E2923811F000EC4C6 /* NoteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C3A23C2923811F000EC4C6 /* NoteViewController.xib */; };
+		84C3A249292382D8000EC4C6 /* NT_MineViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C3A247292382D8000EC4C6 /* NT_MineViewCell.swift */; };
+		84C3A24A292382D8000EC4C6 /* NT_MineViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C3A248292382D8000EC4C6 /* NT_MineViewCell.xib */; };
+		84C3A250292385A9000EC4C6 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C3A24C292385A9000EC4C6 /* MBProgressHUD.m */; };
+		84C3A251292385A9000EC4C6 /* MBProgressHUD+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C3A24E292385A9000EC4C6 /* MBProgressHUD+Extension.swift */; };
+		84C3A252292385A9000EC4C6 /* EWMBProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C3A24F292385A9000EC4C6 /* EWMBProgressHUD.swift */; };
+		84C3A25429238EE5000EC4C6 /* UIView+Add.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C3A25329238EE5000EC4C6 /* UIView+Add.swift */; };
+		84C3A25629238F30000EC4C6 /* NT_MineHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C3A25529238F30000EC4C6 /* NT_MineHeaderView.swift */; };
+		84C3A25829239005000EC4C6 /* UImageView+Add.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C3A25729239005000EC4C6 /* UImageView+Add.swift */; };
+		84C3A25A29239066000EC4C6 /* NT_MineHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C3A25929239066000EC4C6 /* NT_MineHeaderView.xib */; };
+		84C3A25C2923923A000EC4C6 /* NSObkect+Add.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C3A25B2923923A000EC4C6 /* NSObkect+Add.swift */; };
 		84EA635F29224C68004F2BC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EA635E29224C68004F2BC9 /* AppDelegate.swift */; };
-		84EA636129224C68004F2BC9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EA636029224C68004F2BC9 /* SceneDelegate.swift */; };
 		84EA636329224C68004F2BC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EA636229224C68004F2BC9 /* ViewController.swift */; };
 		84EA636629224C68004F2BC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84EA636429224C68004F2BC9 /* Main.storyboard */; };
 		84EA636829224C6A004F2BC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84EA636729224C6A004F2BC9 /* Assets.xcassets */; };
 		84EA636B29224C6A004F2BC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84EA636929224C6A004F2BC9 /* LaunchScreen.storyboard */; };
+		84EA637529224F02004F2BC9 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EA637429224F02004F2BC9 /* MainTabBarController.swift */; };
+		84EA637729224FDE004F2BC9 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EA637629224FDE004F2BC9 /* BaseNavigationController.swift */; };
+		84EA637A29225BF6004F2BC9 /* MainTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EA637929225BF6004F2BC9 /* MainTabBar.swift */; };
+		84EA637D29225C4E004F2BC9 /* UIColorExtession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EA637C29225C4E004F2BC9 /* UIColorExtession.swift */; };
+		84EA637F29225CB4004F2BC9 /* UIViewExtession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EA637E29225CB4004F2BC9 /* UIViewExtession.swift */; };
+		84EA638129225D2B004F2BC9 /* UIFontExtession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EA638029225D2B004F2BC9 /* UIFontExtession.swift */; };
+		84EA638329225DD0004F2BC9 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EA638229225DD0004F2BC9 /* Common.swift */; };
+		84F25F1D292277FC002C7545 /* Define.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F25F1C292277FC002C7545 /* Define.swift */; };
+		84F25F20292278A5002C7545 /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F25F1F292278A5002C7545 /* Defaults.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		350921E6E3E4B948ACAFD411 /* Pods-NoteBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoteBook.debug.xcconfig"; path = "Target Support Files/Pods-NoteBook/Pods-NoteBook.debug.xcconfig"; sourceTree = "<group>"; };
+		76C08F66AE5F7D6C5E014119 /* Pods-NoteBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoteBook.release.xcconfig"; path = "Target Support Files/Pods-NoteBook/Pods-NoteBook.release.xcconfig"; sourceTree = "<group>"; };
+		8495DF11292393F5000370EA /* PageChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageChange.swift; sourceTree = "<group>"; };
+		84C3A22E29237910000EC4C6 /* NT_WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NT_WebViewController.swift; sourceTree = "<group>"; };
+		84C3A23029237A77000EC4C6 /* UIImageExtesion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtesion.swift; sourceTree = "<group>"; };
+		84C3A23229237B13000EC4C6 /* UIViewControllerExtession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtession.swift; sourceTree = "<group>"; };
+		84C3A23429237B5E000EC4C6 /* About_NT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About_NT.swift; sourceTree = "<group>"; };
+		84C3A23729238034000EC4C6 /* NTMineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTMineViewController.swift; sourceTree = "<group>"; };
+		84C3A2392923811F000EC4C6 /* NoteBook-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NoteBook-Bridging-Header.h"; sourceTree = "<group>"; };
+		84C3A23A2923811F000EC4C6 /* NoteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoteViewController.h; sourceTree = "<group>"; };
+		84C3A23B2923811F000EC4C6 /* NoteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoteViewController.m; sourceTree = "<group>"; };
+		84C3A23C2923811F000EC4C6 /* NoteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoteViewController.xib; sourceTree = "<group>"; };
+		84C3A247292382D8000EC4C6 /* NT_MineViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NT_MineViewCell.swift; sourceTree = "<group>"; };
+		84C3A248292382D8000EC4C6 /* NT_MineViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NT_MineViewCell.xib; sourceTree = "<group>"; };
+		84C3A24C292385A9000EC4C6 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		84C3A24D292385A9000EC4C6 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		84C3A24E292385A9000EC4C6 /* MBProgressHUD+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MBProgressHUD+Extension.swift"; sourceTree = "<group>"; };
+		84C3A24F292385A9000EC4C6 /* EWMBProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EWMBProgressHUD.swift; sourceTree = "<group>"; };
+		84C3A25329238EE5000EC4C6 /* UIView+Add.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Add.swift"; sourceTree = "<group>"; };
+		84C3A25529238F30000EC4C6 /* NT_MineHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NT_MineHeaderView.swift; sourceTree = "<group>"; };
+		84C3A25729239005000EC4C6 /* UImageView+Add.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UImageView+Add.swift"; sourceTree = "<group>"; };
+		84C3A25929239066000EC4C6 /* NT_MineHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NT_MineHeaderView.xib; sourceTree = "<group>"; };
+		84C3A25B2923923A000EC4C6 /* NSObkect+Add.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObkect+Add.swift"; sourceTree = "<group>"; };
 		84EA635B29224C68004F2BC9 /* NoteBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoteBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84EA635E29224C68004F2BC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84EA636029224C68004F2BC9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		84EA636229224C68004F2BC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		84EA636529224C68004F2BC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84EA636729224C6A004F2BC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84EA636A29224C6A004F2BC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84EA636C29224C6A004F2BC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84EA637429224F02004F2BC9 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		84EA637629224FDE004F2BC9 /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		84EA637929225BF6004F2BC9 /* MainTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBar.swift; sourceTree = "<group>"; };
+		84EA637C29225C4E004F2BC9 /* UIColorExtession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtession.swift; sourceTree = "<group>"; };
+		84EA637E29225CB4004F2BC9 /* UIViewExtession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtession.swift; sourceTree = "<group>"; };
+		84EA638029225D2B004F2BC9 /* UIFontExtession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFontExtession.swift; sourceTree = "<group>"; };
+		84EA638229225DD0004F2BC9 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		84F25F1C292277FC002C7545 /* Define.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Define.swift; sourceTree = "<group>"; };
+		84F25F1F292278A5002C7545 /* Defaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Defaults.swift; sourceTree = "<group>"; };
+		F2FCFF20756CD403DE1A92FD /* Pods_NoteBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NoteBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +90,60 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EA629D56AFB907B90CFA81F /* Pods_NoteBook.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84C3A22D292378DE000EC4C6 /* H5 */ = {
+			isa = PBXGroup;
+			children = (
+				84C3A22E29237910000EC4C6 /* NT_WebViewController.swift */,
+				84C3A23429237B5E000EC4C6 /* About_NT.swift */,
+			);
+			path = H5;
+			sourceTree = "<group>";
+		};
+		84C3A23629238019000EC4C6 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				84C3A23729238034000EC4C6 /* NTMineViewController.swift */,
+				84C3A25529238F30000EC4C6 /* NT_MineHeaderView.swift */,
+				84C3A25929239066000EC4C6 /* NT_MineHeaderView.xib */,
+				84C3A247292382D8000EC4C6 /* NT_MineViewCell.swift */,
+				84C3A248292382D8000EC4C6 /* NT_MineViewCell.xib */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		84C3A23F29238175000EC4C6 /* Third */ = {
+			isa = PBXGroup;
+			children = (
+				84C3A24B292385A9000EC4C6 /* MBProgressHUD */,
+			);
+			path = Third;
+			sourceTree = "<group>";
+		};
+		84C3A24B292385A9000EC4C6 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				84C3A24C292385A9000EC4C6 /* MBProgressHUD.m */,
+				84C3A24D292385A9000EC4C6 /* MBProgressHUD.h */,
+				84C3A24E292385A9000EC4C6 /* MBProgressHUD+Extension.swift */,
+				84C3A24F292385A9000EC4C6 /* EWMBProgressHUD.swift */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
 		84EA635229224C68004F2BC9 = {
 			isa = PBXGroup;
 			children = (
 				84EA635D29224C68004F2BC9 /* NoteBook */,
 				84EA635C29224C68004F2BC9 /* Products */,
+				CD8CE623ED6269D6493CA811 /* Pods */,
+				DFA1FC545273194F7A1E5C5E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,8 +158,13 @@
 		84EA635D29224C68004F2BC9 /* NoteBook */ = {
 			isa = PBXGroup;
 			children = (
+				84C3A23F29238175000EC4C6 /* Third */,
+				84F25F1E2922788A002C7545 /* Tools */,
+				84F25F1B292277DE002C7545 /* Public */,
+				84EA637B29225C25004F2BC9 /* Extesion */,
+				84EA637829224FED004F2BC9 /* Base */,
+				84EA637229224E7D004F2BC9 /* Modules */,
 				84EA635E29224C68004F2BC9 /* AppDelegate.swift */,
-				84EA636029224C68004F2BC9 /* SceneDelegate.swift */,
 				84EA636229224C68004F2BC9 /* ViewController.swift */,
 				84EA636429224C68004F2BC9 /* Main.storyboard */,
 				84EA636729224C6A004F2BC9 /* Assets.xcassets */,
@@ -67,6 +174,87 @@
 			path = NoteBook;
 			sourceTree = "<group>";
 		};
+		84EA637229224E7D004F2BC9 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				84C3A23629238019000EC4C6 /* Mine */,
+				84C3A22D292378DE000EC4C6 /* H5 */,
+				84EA637329224EA4004F2BC9 /* TabbarController */,
+				84C3A23A2923811F000EC4C6 /* NoteViewController.h */,
+				84C3A23B2923811F000EC4C6 /* NoteViewController.m */,
+				84C3A23C2923811F000EC4C6 /* NoteViewController.xib */,
+				84C3A2392923811F000EC4C6 /* NoteBook-Bridging-Header.h */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		84EA637329224EA4004F2BC9 /* TabbarController */ = {
+			isa = PBXGroup;
+			children = (
+				84EA637429224F02004F2BC9 /* MainTabBarController.swift */,
+				84EA637929225BF6004F2BC9 /* MainTabBar.swift */,
+			);
+			path = TabbarController;
+			sourceTree = "<group>";
+		};
+		84EA637829224FED004F2BC9 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				84EA637629224FDE004F2BC9 /* BaseNavigationController.swift */,
+				84EA638229225DD0004F2BC9 /* Common.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		84EA637B29225C25004F2BC9 /* Extesion */ = {
+			isa = PBXGroup;
+			children = (
+				84EA637C29225C4E004F2BC9 /* UIColorExtession.swift */,
+				84C3A25329238EE5000EC4C6 /* UIView+Add.swift */,
+				84C3A25B2923923A000EC4C6 /* NSObkect+Add.swift */,
+				84EA637E29225CB4004F2BC9 /* UIViewExtession.swift */,
+				84EA638029225D2B004F2BC9 /* UIFontExtession.swift */,
+				84C3A23029237A77000EC4C6 /* UIImageExtesion.swift */,
+				84C3A23229237B13000EC4C6 /* UIViewControllerExtession.swift */,
+				84C3A25729239005000EC4C6 /* UImageView+Add.swift */,
+			);
+			path = Extesion;
+			sourceTree = "<group>";
+		};
+		84F25F1B292277DE002C7545 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				84F25F1C292277FC002C7545 /* Define.swift */,
+				8495DF11292393F5000370EA /* PageChange.swift */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		84F25F1E2922788A002C7545 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				84F25F1F292278A5002C7545 /* Defaults.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		CD8CE623ED6269D6493CA811 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				350921E6E3E4B948ACAFD411 /* Pods-NoteBook.debug.xcconfig */,
+				76C08F66AE5F7D6C5E014119 /* Pods-NoteBook.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DFA1FC545273194F7A1E5C5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2FCFF20756CD403DE1A92FD /* Pods_NoteBook.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +262,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84EA636F29224C6A004F2BC9 /* Build configuration list for PBXNativeTarget "NoteBook" */;
 			buildPhases = (
+				D257B6A8FAC3ACA5B83F0B3E /* [CP] Check Pods Manifest.lock */,
 				84EA635729224C68004F2BC9 /* Sources */,
 				84EA635829224C68004F2BC9 /* Frameworks */,
 				84EA635929224C68004F2BC9 /* Resources */,
+				67D5F9B1BF0F02775F389E4F /* [CP] Embed Pods Frameworks */,
+				1A10C9A844DA0238D26EFFE8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -99,6 +290,7 @@
 				TargetAttributes = {
 					84EA635A29224C68004F2BC9 = {
 						CreatedOnToolsVersion = 14.0.1;
+						LastSwiftMigration = 1400;
 					};
 				};
 			};
@@ -125,7 +317,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84C3A25A29239066000EC4C6 /* NT_MineHeaderView.xib in Resources */,
+				84C3A23E2923811F000EC4C6 /* NoteViewController.xib in Resources */,
 				84EA636B29224C6A004F2BC9 /* LaunchScreen.storyboard in Resources */,
+				84C3A24A292382D8000EC4C6 /* NT_MineViewCell.xib in Resources */,
 				84EA636829224C6A004F2BC9 /* Assets.xcassets in Resources */,
 				84EA636629224C68004F2BC9 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +328,96 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1A10C9A844DA0238D26EFFE8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NoteBook/Pods-NoteBook-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NoteBook/Pods-NoteBook-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NoteBook/Pods-NoteBook-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67D5F9B1BF0F02775F389E4F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NoteBook/Pods-NoteBook-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NoteBook/Pods-NoteBook-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NoteBook/Pods-NoteBook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D257B6A8FAC3ACA5B83F0B3E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NoteBook-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84EA635729224C68004F2BC9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84EA637729224FDE004F2BC9 /* BaseNavigationController.swift in Sources */,
+				84C3A23D2923811F000EC4C6 /* NoteViewController.m in Sources */,
+				84C3A251292385A9000EC4C6 /* MBProgressHUD+Extension.swift in Sources */,
+				84C3A25C2923923A000EC4C6 /* NSObkect+Add.swift in Sources */,
+				8495DF12292393F5000370EA /* PageChange.swift in Sources */,
+				84C3A23129237A77000EC4C6 /* UIImageExtesion.swift in Sources */,
+				84C3A249292382D8000EC4C6 /* NT_MineViewCell.swift in Sources */,
+				84EA637F29225CB4004F2BC9 /* UIViewExtession.swift in Sources */,
+				84C3A23329237B13000EC4C6 /* UIViewControllerExtession.swift in Sources */,
+				84C3A25629238F30000EC4C6 /* NT_MineHeaderView.swift in Sources */,
 				84EA636329224C68004F2BC9 /* ViewController.swift in Sources */,
+				84C3A250292385A9000EC4C6 /* MBProgressHUD.m in Sources */,
+				84C3A252292385A9000EC4C6 /* EWMBProgressHUD.swift in Sources */,
+				84C3A22F29237910000EC4C6 /* NT_WebViewController.swift in Sources */,
 				84EA635F29224C68004F2BC9 /* AppDelegate.swift in Sources */,
-				84EA636129224C68004F2BC9 /* SceneDelegate.swift in Sources */,
+				84EA638329225DD0004F2BC9 /* Common.swift in Sources */,
+				84EA637A29225BF6004F2BC9 /* MainTabBar.swift in Sources */,
+				84EA637D29225C4E004F2BC9 /* UIColorExtession.swift in Sources */,
+				84EA637529224F02004F2BC9 /* MainTabBarController.swift in Sources */,
+				84F25F1D292277FC002C7545 /* Define.swift in Sources */,
+				84C3A23529237B5E000EC4C6 /* About_NT.swift in Sources */,
+				84C3A25429238EE5000EC4C6 /* UIView+Add.swift in Sources */,
+				84EA638129225D2B004F2BC9 /* UIFontExtession.swift in Sources */,
+				84F25F20292278A5002C7545 /* Defaults.swift in Sources */,
+				84C3A25829239005000EC4C6 /* UImageView+Add.swift in Sources */,
+				84C3A23829238034000EC4C6 /* NTMineViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,12 +559,14 @@
 		};
 		84EA637029224C6A004F2BC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 350921E6E3E4B948ACAFD411 /* Pods-NoteBook.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = ANYUVK8F8W;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NoteBook/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -300,9 +579,12 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.base.-.NoteBook";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leafhandy.icloud;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "NoteBook/Modules/NoteBook-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -310,12 +592,14 @@
 		};
 		84EA637129224C6A004F2BC9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76C08F66AE5F7D6C5E014119 /* Pods-NoteBook.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = ANYUVK8F8W;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NoteBook/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -328,9 +612,11 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.base.-.NoteBook";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leafhandy.icloud;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "NoteBook/Modules/NoteBook-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
