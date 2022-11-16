@@ -26,6 +26,35 @@
 		84C3A25829239005000EC4C6 /* UImageView+Add.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C3A25729239005000EC4C6 /* UImageView+Add.swift */; };
 		84C3A25A29239066000EC4C6 /* NT_MineHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C3A25929239066000EC4C6 /* NT_MineHeaderView.xib */; };
 		84C3A25C2923923A000EC4C6 /* NSObkect+Add.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C3A25B2923923A000EC4C6 /* NSObkect+Add.swift */; };
+		84D7008A2924DA4A00FA2339 /* NT_NetWorkResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D700892924DA4A00FA2339 /* NT_NetWorkResult.swift */; };
+		84D7008C2924DABE00FA2339 /* NT_NetWorkProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D7008B2924DABE00FA2339 /* NT_NetWorkProvider.swift */; };
+		84D7008E2924DB0E00FA2339 /* NT_SystemTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D7008D2924DB0E00FA2339 /* NT_SystemTime.swift */; };
+		84D700902924DB9500FA2339 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D7008F2924DB9500FA2339 /* DateExtension.swift */; };
+		84D700922924DCE900FA2339 /* NT_API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D700912924DCE900FA2339 /* NT_API.swift */; };
+		84D700942924DD2900FA2339 /* NT_BASE_API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D700932924DD2900FA2339 /* NT_BASE_API.swift */; };
+		84D700A92924DE5400FA2339 /* NSObject+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D700982924DE5400FA2339 /* NSObject+Localizable.swift */; };
+		84D700AA2924DE5400FA2339 /* HCLocalizableManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D700992924DE5400FA2339 /* HCLocalizableManager.swift */; };
+		84D700AB2924DE5400FA2339 /* HCLocalizableDeinitBlockExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D7009A2924DE5400FA2339 /* HCLocalizableDeinitBlockExecutor.swift */; };
+		84D700AC2924DE5400FA2339 /* HCLocalizableManager-OC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D7009B2924DE5400FA2339 /* HCLocalizableManager-OC.m */; };
+		84D700AD2924DE5400FA2339 /* NSObject+LocalizableDeinit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D7009C2924DE5400FA2339 /* NSObject+LocalizableDeinit.swift */; };
+		84D700AE2924DE5400FA2339 /* UITextField+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D7009E2924DE5400FA2339 /* UITextField+Localizable.swift */; };
+		84D700AF2924DE5400FA2339 /* UISearchBar+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D7009F2924DE5400FA2339 /* UISearchBar+Localizable.swift */; };
+		84D700B02924DE5400FA2339 /* UITabBarItem+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D700A02924DE5400FA2339 /* UITabBarItem+Localizable.swift */; };
+		84D700B12924DE5400FA2339 /* UITextView+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D700A12924DE5400FA2339 /* UITextView+Localizable.swift */; };
+		84D700B22924DE5400FA2339 /* UIButton+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D700A22924DE5400FA2339 /* UIButton+Localizable.swift */; };
+		84D700B32924DE5400FA2339 /* UIViewController+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D700A32924DE5400FA2339 /* UIViewController+Localizable.swift */; };
+		84D700B42924DE5400FA2339 /* UINavigationItem+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D700A42924DE5400FA2339 /* UINavigationItem+Localizable.swift */; };
+		84D700B52924DE5400FA2339 /* UIImageView+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D700A52924DE5400FA2339 /* UIImageView+Localizable.swift */; };
+		84D700B62924DE5400FA2339 /* UILabel+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D700A62924DE5400FA2339 /* UILabel+Localizable.swift */; };
+		84D700B72924DE5400FA2339 /* UIImage+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D700A72924DE5400FA2339 /* UIImage+Localizable.swift */; };
+		84D700B82924DE5400FA2339 /* UIBarButtonItem+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D700A82924DE5400FA2339 /* UIBarButtonItem+Localizable.swift */; };
+		84D700BA2924DEC600FA2339 /* NT_NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D700B92924DEC600FA2339 /* NT_NetworkHelper.swift */; };
+		84D700BC2924DF1100FA2339 /* IpUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D700BB2924DF1100FA2339 /* IpUtils.swift */; };
+		84D700BE2924E22C00FA2339 /* UIDeviceExtesion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D700BD2924E22C00FA2339 /* UIDeviceExtesion.swift */; };
+		84D700C02924E4E100FA2339 /* NT_Maintain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D700BF2924E4E100FA2339 /* NT_Maintain.swift */; };
+		84D700C22924E55100FA2339 /* NT_MaintainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D700C12924E55100FA2339 /* NT_MaintainView.swift */; };
+		84D700C42924E5B200FA2339 /* NT_MaintainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84D700C32924E5B200FA2339 /* NT_MaintainView.xib */; };
+		84D700C62924E6EA00FA2339 /* String+Add.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D700C52924E6EA00FA2339 /* String+Add.swift */; };
 		84EA635F29224C68004F2BC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EA635E29224C68004F2BC9 /* AppDelegate.swift */; };
 		84EA636329224C68004F2BC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EA636229224C68004F2BC9 /* ViewController.swift */; };
 		84EA636629224C68004F2BC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84EA636429224C68004F2BC9 /* Main.storyboard */; };
@@ -66,6 +95,36 @@
 		84C3A25729239005000EC4C6 /* UImageView+Add.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UImageView+Add.swift"; sourceTree = "<group>"; };
 		84C3A25929239066000EC4C6 /* NT_MineHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NT_MineHeaderView.xib; sourceTree = "<group>"; };
 		84C3A25B2923923A000EC4C6 /* NSObkect+Add.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObkect+Add.swift"; sourceTree = "<group>"; };
+		84D700892924DA4A00FA2339 /* NT_NetWorkResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NT_NetWorkResult.swift; sourceTree = "<group>"; };
+		84D7008B2924DABE00FA2339 /* NT_NetWorkProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NT_NetWorkProvider.swift; sourceTree = "<group>"; };
+		84D7008D2924DB0E00FA2339 /* NT_SystemTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NT_SystemTime.swift; sourceTree = "<group>"; };
+		84D7008F2924DB9500FA2339 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		84D700912924DCE900FA2339 /* NT_API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NT_API.swift; sourceTree = "<group>"; };
+		84D700932924DD2900FA2339 /* NT_BASE_API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NT_BASE_API.swift; sourceTree = "<group>"; };
+		84D700972924DE5400FA2339 /* HCLocalizableManager-OC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HCLocalizableManager-OC.h"; sourceTree = "<group>"; };
+		84D700982924DE5400FA2339 /* NSObject+Localizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Localizable.swift"; sourceTree = "<group>"; };
+		84D700992924DE5400FA2339 /* HCLocalizableManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HCLocalizableManager.swift; sourceTree = "<group>"; };
+		84D7009A2924DE5400FA2339 /* HCLocalizableDeinitBlockExecutor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HCLocalizableDeinitBlockExecutor.swift; sourceTree = "<group>"; };
+		84D7009B2924DE5400FA2339 /* HCLocalizableManager-OC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HCLocalizableManager-OC.m"; sourceTree = "<group>"; };
+		84D7009C2924DE5400FA2339 /* NSObject+LocalizableDeinit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+LocalizableDeinit.swift"; sourceTree = "<group>"; };
+		84D7009E2924DE5400FA2339 /* UITextField+Localizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Localizable.swift"; sourceTree = "<group>"; };
+		84D7009F2924DE5400FA2339 /* UISearchBar+Localizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISearchBar+Localizable.swift"; sourceTree = "<group>"; };
+		84D700A02924DE5400FA2339 /* UITabBarItem+Localizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITabBarItem+Localizable.swift"; sourceTree = "<group>"; };
+		84D700A12924DE5400FA2339 /* UITextView+Localizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextView+Localizable.swift"; sourceTree = "<group>"; };
+		84D700A22924DE5400FA2339 /* UIButton+Localizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Localizable.swift"; sourceTree = "<group>"; };
+		84D700A32924DE5400FA2339 /* UIViewController+Localizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Localizable.swift"; sourceTree = "<group>"; };
+		84D700A42924DE5400FA2339 /* UINavigationItem+Localizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationItem+Localizable.swift"; sourceTree = "<group>"; };
+		84D700A52924DE5400FA2339 /* UIImageView+Localizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Localizable.swift"; sourceTree = "<group>"; };
+		84D700A62924DE5400FA2339 /* UILabel+Localizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Localizable.swift"; sourceTree = "<group>"; };
+		84D700A72924DE5400FA2339 /* UIImage+Localizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Localizable.swift"; sourceTree = "<group>"; };
+		84D700A82924DE5400FA2339 /* UIBarButtonItem+Localizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Localizable.swift"; sourceTree = "<group>"; };
+		84D700B92924DEC600FA2339 /* NT_NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NT_NetworkHelper.swift; sourceTree = "<group>"; };
+		84D700BB2924DF1100FA2339 /* IpUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IpUtils.swift; sourceTree = "<group>"; };
+		84D700BD2924E22C00FA2339 /* UIDeviceExtesion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDeviceExtesion.swift; sourceTree = "<group>"; };
+		84D700BF2924E4E100FA2339 /* NT_Maintain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NT_Maintain.swift; sourceTree = "<group>"; };
+		84D700C12924E55100FA2339 /* NT_MaintainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NT_MaintainView.swift; sourceTree = "<group>"; };
+		84D700C32924E5B200FA2339 /* NT_MaintainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NT_MaintainView.xib; sourceTree = "<group>"; };
+		84D700C52924E6EA00FA2339 /* String+Add.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Add.swift"; sourceTree = "<group>"; };
 		84EA635B29224C68004F2BC9 /* NoteBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoteBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84EA635E29224C68004F2BC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84EA636229224C68004F2BC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -137,6 +196,63 @@
 			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
+		84D700882924D5D300FA2339 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				84D700892924DA4A00FA2339 /* NT_NetWorkResult.swift */,
+				84D7008B2924DABE00FA2339 /* NT_NetWorkProvider.swift */,
+				84D700C52924E6EA00FA2339 /* String+Add.swift */,
+				84D700BF2924E4E100FA2339 /* NT_Maintain.swift */,
+				84D700C12924E55100FA2339 /* NT_MaintainView.swift */,
+				84D700C32924E5B200FA2339 /* NT_MaintainView.xib */,
+				84D700912924DCE900FA2339 /* NT_API.swift */,
+				84D700B92924DEC600FA2339 /* NT_NetworkHelper.swift */,
+				84D700932924DD2900FA2339 /* NT_BASE_API.swift */,
+				84D7008D2924DB0E00FA2339 /* NT_SystemTime.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		84D700952924DE5400FA2339 /* LanguageSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				84D700962924DE5400FA2339 /* Core */,
+				84D7009D2924DE5400FA2339 /* UIKit+Localizable */,
+			);
+			path = LanguageSwitch;
+			sourceTree = "<group>";
+		};
+		84D700962924DE5400FA2339 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				84D7009A2924DE5400FA2339 /* HCLocalizableDeinitBlockExecutor.swift */,
+				84D700972924DE5400FA2339 /* HCLocalizableManager-OC.h */,
+				84D7009B2924DE5400FA2339 /* HCLocalizableManager-OC.m */,
+				84D700992924DE5400FA2339 /* HCLocalizableManager.swift */,
+				84D700982924DE5400FA2339 /* NSObject+Localizable.swift */,
+				84D7009C2924DE5400FA2339 /* NSObject+LocalizableDeinit.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		84D7009D2924DE5400FA2339 /* UIKit+Localizable */ = {
+			isa = PBXGroup;
+			children = (
+				84D7009E2924DE5400FA2339 /* UITextField+Localizable.swift */,
+				84D7009F2924DE5400FA2339 /* UISearchBar+Localizable.swift */,
+				84D700A02924DE5400FA2339 /* UITabBarItem+Localizable.swift */,
+				84D700A12924DE5400FA2339 /* UITextView+Localizable.swift */,
+				84D700A22924DE5400FA2339 /* UIButton+Localizable.swift */,
+				84D700A32924DE5400FA2339 /* UIViewController+Localizable.swift */,
+				84D700A42924DE5400FA2339 /* UINavigationItem+Localizable.swift */,
+				84D700A52924DE5400FA2339 /* UIImageView+Localizable.swift */,
+				84D700A62924DE5400FA2339 /* UILabel+Localizable.swift */,
+				84D700A72924DE5400FA2339 /* UIImage+Localizable.swift */,
+				84D700A82924DE5400FA2339 /* UIBarButtonItem+Localizable.swift */,
+			);
+			path = "UIKit+Localizable";
+			sourceTree = "<group>";
+		};
 		84EA635229224C68004F2BC9 = {
 			isa = PBXGroup;
 			children = (
@@ -158,6 +274,7 @@
 		84EA635D29224C68004F2BC9 /* NoteBook */ = {
 			isa = PBXGroup;
 			children = (
+				84D700882924D5D300FA2339 /* Network */,
 				84C3A23F29238175000EC4C6 /* Third */,
 				84F25F1E2922788A002C7545 /* Tools */,
 				84F25F1B292277DE002C7545 /* Public */,
@@ -210,6 +327,7 @@
 			isa = PBXGroup;
 			children = (
 				84EA637C29225C4E004F2BC9 /* UIColorExtession.swift */,
+				84D700BD2924E22C00FA2339 /* UIDeviceExtesion.swift */,
 				84C3A25329238EE5000EC4C6 /* UIView+Add.swift */,
 				84C3A25B2923923A000EC4C6 /* NSObkect+Add.swift */,
 				84EA637E29225CB4004F2BC9 /* UIViewExtession.swift */,
@@ -217,6 +335,7 @@
 				84C3A23029237A77000EC4C6 /* UIImageExtesion.swift */,
 				84C3A23229237B13000EC4C6 /* UIViewControllerExtession.swift */,
 				84C3A25729239005000EC4C6 /* UImageView+Add.swift */,
+				84D7008F2924DB9500FA2339 /* DateExtension.swift */,
 			);
 			path = Extesion;
 			sourceTree = "<group>";
@@ -233,7 +352,9 @@
 		84F25F1E2922788A002C7545 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				84D700952924DE5400FA2339 /* LanguageSwitch */,
 				84F25F1F292278A5002C7545 /* Defaults.swift */,
+				84D700BB2924DF1100FA2339 /* IpUtils.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -318,6 +439,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84C3A25A29239066000EC4C6 /* NT_MineHeaderView.xib in Resources */,
+				84D700C42924E5B200FA2339 /* NT_MaintainView.xib in Resources */,
 				84C3A23E2923811F000EC4C6 /* NoteViewController.xib in Resources */,
 				84EA636B29224C6A004F2BC9 /* LaunchScreen.storyboard in Resources */,
 				84C3A24A292382D8000EC4C6 /* NT_MineViewCell.xib in Resources */,
@@ -392,28 +514,56 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84D700B72924DE5400FA2339 /* UIImage+Localizable.swift in Sources */,
 				84EA637729224FDE004F2BC9 /* BaseNavigationController.swift in Sources */,
+				84D700942924DD2900FA2339 /* NT_BASE_API.swift in Sources */,
+				84D700902924DB9500FA2339 /* DateExtension.swift in Sources */,
+				84D700B12924DE5400FA2339 /* UITextView+Localizable.swift in Sources */,
+				84D700B82924DE5400FA2339 /* UIBarButtonItem+Localizable.swift in Sources */,
 				84C3A23D2923811F000EC4C6 /* NoteViewController.m in Sources */,
 				84C3A251292385A9000EC4C6 /* MBProgressHUD+Extension.swift in Sources */,
 				84C3A25C2923923A000EC4C6 /* NSObkect+Add.swift in Sources */,
 				8495DF12292393F5000370EA /* PageChange.swift in Sources */,
 				84C3A23129237A77000EC4C6 /* UIImageExtesion.swift in Sources */,
+				84D700AE2924DE5400FA2339 /* UITextField+Localizable.swift in Sources */,
+				84D700C62924E6EA00FA2339 /* String+Add.swift in Sources */,
 				84C3A249292382D8000EC4C6 /* NT_MineViewCell.swift in Sources */,
+				84D700BE2924E22C00FA2339 /* UIDeviceExtesion.swift in Sources */,
+				84D700C22924E55100FA2339 /* NT_MaintainView.swift in Sources */,
 				84EA637F29225CB4004F2BC9 /* UIViewExtession.swift in Sources */,
+				84D700A92924DE5400FA2339 /* NSObject+Localizable.swift in Sources */,
+				84D700AC2924DE5400FA2339 /* HCLocalizableManager-OC.m in Sources */,
 				84C3A23329237B13000EC4C6 /* UIViewControllerExtession.swift in Sources */,
+				84D700C02924E4E100FA2339 /* NT_Maintain.swift in Sources */,
 				84C3A25629238F30000EC4C6 /* NT_MineHeaderView.swift in Sources */,
 				84EA636329224C68004F2BC9 /* ViewController.swift in Sources */,
+				84D700922924DCE900FA2339 /* NT_API.swift in Sources */,
+				84D700AD2924DE5400FA2339 /* NSObject+LocalizableDeinit.swift in Sources */,
+				84D700B42924DE5400FA2339 /* UINavigationItem+Localizable.swift in Sources */,
 				84C3A250292385A9000EC4C6 /* MBProgressHUD.m in Sources */,
 				84C3A252292385A9000EC4C6 /* EWMBProgressHUD.swift in Sources */,
 				84C3A22F29237910000EC4C6 /* NT_WebViewController.swift in Sources */,
+				84D700BA2924DEC600FA2339 /* NT_NetworkHelper.swift in Sources */,
 				84EA635F29224C68004F2BC9 /* AppDelegate.swift in Sources */,
+				84D700AB2924DE5400FA2339 /* HCLocalizableDeinitBlockExecutor.swift in Sources */,
+				84D7008A2924DA4A00FA2339 /* NT_NetWorkResult.swift in Sources */,
+				84D700B32924DE5400FA2339 /* UIViewController+Localizable.swift in Sources */,
 				84EA638329225DD0004F2BC9 /* Common.swift in Sources */,
 				84EA637A29225BF6004F2BC9 /* MainTabBar.swift in Sources */,
+				84D700AF2924DE5400FA2339 /* UISearchBar+Localizable.swift in Sources */,
 				84EA637D29225C4E004F2BC9 /* UIColorExtession.swift in Sources */,
+				84D7008E2924DB0E00FA2339 /* NT_SystemTime.swift in Sources */,
 				84EA637529224F02004F2BC9 /* MainTabBarController.swift in Sources */,
+				84D700AA2924DE5400FA2339 /* HCLocalizableManager.swift in Sources */,
+				84D700B52924DE5400FA2339 /* UIImageView+Localizable.swift in Sources */,
+				84D700BC2924DF1100FA2339 /* IpUtils.swift in Sources */,
+				84D700B02924DE5400FA2339 /* UITabBarItem+Localizable.swift in Sources */,
 				84F25F1D292277FC002C7545 /* Define.swift in Sources */,
+				84D7008C2924DABE00FA2339 /* NT_NetWorkProvider.swift in Sources */,
 				84C3A23529237B5E000EC4C6 /* About_NT.swift in Sources */,
+				84D700B22924DE5400FA2339 /* UIButton+Localizable.swift in Sources */,
 				84C3A25429238EE5000EC4C6 /* UIView+Add.swift in Sources */,
+				84D700B62924DE5400FA2339 /* UILabel+Localizable.swift in Sources */,
 				84EA638129225D2B004F2BC9 /* UIFontExtession.swift in Sources */,
 				84F25F20292278A5002C7545 /* Defaults.swift in Sources */,
 				84C3A25829239005000EC4C6 /* UImageView+Add.swift in Sources */,

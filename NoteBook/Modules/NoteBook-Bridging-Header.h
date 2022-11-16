@@ -3,3 +3,5 @@
 //
 
 #import "MBProgressHUD.h"
+#import <CommonCrypto/CommonHMAC.h>
+#import <XYUUID/XYUUID.h>
